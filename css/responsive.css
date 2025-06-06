@@ -293,6 +293,9 @@
 	.inner_banner_img {
 		height:500px;
 	}
+	.footer-links {
+		padding-left: 0;
+	}
 }
 
 
@@ -368,6 +371,10 @@
 	.banner-img::before {
 		background-repeat: no-repeat;
 		background-size: contain;
+	}
+	.Why-banner .common-text h2 {
+		font-size: 32px;
+		margin-bottom: 20px;
 	}
 	
 }
