@@ -1822,6 +1822,8 @@ section.faq.new-faqs .container {
     font-size: 18px;
     color: #212529;
     font-family: 'Raleway';
+    list-style-type: disc;
+    margin-left: 20px;
 }
 .commoncontent-wrapper h4 {
     font-size: 18px;
