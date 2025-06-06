@@ -47,7 +47,9 @@
 		display: flex;
 		justify-content: space-between;
 	}
-
+	.site-banner.inner-banner .banner-content {
+		padding: 0;
+	}
 	.mobile-menu {
 		display: block;
 	}

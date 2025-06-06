@@ -1887,3 +1887,8 @@ section.faq.new-faqs .container {
 .home_build_sec .row {
     row-gap: 30px;
 }
+
+.Why-banner .common-text {
+    color: #fff;
+    z-index: 1;
+}
