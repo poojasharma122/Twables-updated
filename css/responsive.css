@@ -254,7 +254,9 @@
 	.accrodtion-card {
 		padding: 80px 25px;
 	}
-
+	.img_part {
+		height: 500px;
+	}
 	.accrodtion-card .accordion .accordion-button {
 		font-size: 20px;
 		padding: 20px 0;
