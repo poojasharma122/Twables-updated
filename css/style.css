@@ -1697,6 +1697,8 @@ section.faq.new-faqs .container {
     transform: translate(50%, -50%);
     top: 50%;
     right: 50%;
+    width: 100%;
+    max-width: 1200px;
 }
 
     .nwblog h2.section-title {
@@ -1784,6 +1786,9 @@ section.faq.new-faqs .container {
 .commoncontent-wrapper h3 {
     padding: 20px 0;
     color: #1cc3b2;
+    display: flex;
+    align-items: start;
+    gap: 15px;
 }
 
 /* events page end  */
