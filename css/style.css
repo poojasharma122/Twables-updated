@@ -747,13 +747,7 @@ span.highlight {
     border-bottom: 2px solid var(--gray);
 }
 
-.accrodtion-card .accordion .accordion-button::after {
-    background-image: none;
-    content: "\ea4c";
-    font-family: 'remixicon';
-    height: auto;
-    margin-right: 5px;
-}
+
 
 /* faq end  */
 
@@ -1287,3 +1281,101 @@ span.highlight {
     margin: 0 0 40px;
 }
 /* get-started-form end */
+
+/* flight page start  */
+
+/* Sub Pages Banner CSS Start */
+.bg_light{
+    background-color: #f5f5f7;
+}
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 90px 0;
+}
+
+.banner-text {
+    font-size: 1.1rem;
+    color: #6c757d;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.banner-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.inner_banner_img {
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+}
+.site-banner.inner-banner {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    height: auto;
+}
+.text_dark{
+    color: #212529;
+}
+.site-banner.inner-banner::before{
+    display: none;
+}
+
+.inner-banner h1 {
+    color: #222;
+}
+
+.inner-banner p {
+    color: #222;
+
+}
+/* Sub Pages Banner CSS Start */
+/* flight page end  */
+
+
+/*Faq page css*/
+section.faq.new-faqs {
+    background: transparent;
+}
+section.faq.new-faqs .container {
+    margin: 0 auto;
+}
+.new-faqs .faq-sec-new {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.new-faqs .accordion-body {
+    padding: 10px 0;
+}
+.new-faqs .section-title {
+    max-width: 1000px;
+    margin: 40px auto;
+    color: #1cc3b2;
+}
+.new-faqs .accordion-button:not(.collapsed)::after {
+    background-image: url(../images/minusicon.svg);
+}
+.new-faqs .accordion-button::after{
+    background-image: url(../images/plusicon.svg);
+}   
+.faqbanner {
+    background: #1cc3b2;
+    height: 350px;
+    position: relative;
+}
+.faq-text h1 {
+   color: #fff;
+}
+.faq-text {
+    text-align: center;
+    position: absolute;
+    transform: translate(50%, -50%);
+    top: 50%;
+    right: 50%;
+}
+
+/*Faq page css*/
