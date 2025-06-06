@@ -171,6 +171,11 @@
 	.accrodtion-card p {
 		font-size: 22px;
 	}
+	.site-nav li ul.submenu {
+		opacity: 1 !important;
+		visibility: visible !important;
+		background: transparent !important;
+	}
 
 }
 
