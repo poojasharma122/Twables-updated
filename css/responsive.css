@@ -297,6 +297,7 @@
 	.footer-links {
 		padding-left: 0;
 	}
+
 }
 
 
@@ -304,7 +305,9 @@
 	.site-logo img {
 		max-width: 120px;
 	}
-
+	.site-logo a {
+		width: 120px;
+	}
 	.Why-banner {
 		height: 550px;
 	}
