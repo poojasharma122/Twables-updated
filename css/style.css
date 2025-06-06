@@ -1881,3 +1881,8 @@ section.faq.new-faqs .container {
 .home_build_sec .row {
     row-gap: 30px;
 }
+
+
+.site-banner.inner-banner .banner-content {
+    padding: 0;
+}
