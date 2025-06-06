@@ -100,7 +100,7 @@ p{
     line-height: 140%; /* 25.2px */
 }
 .container {
-    width: 95%;
+    width: 98%;
     max-width: 1560px;
     margin: 0 auto;
     padding: 0;
@@ -508,6 +508,7 @@ span.highlight {
     height: 100%;
     position: relative;
     z-index: 1;
+    max-width: 100%;
 }
 .site-banner-warp {
     position: relative;
@@ -1318,6 +1319,10 @@ span.highlight {
   padding: 80px 0;
     height: auto;
 }
+
+.site-banner.inner-banner .container {
+    max-width: 1550px;
+}
 .text_dark{
     color: #212529;
 }
@@ -1415,3 +1420,127 @@ section.faq.new-faqs .container {
 }
 
 /* contact us page end  */
+
+/* flight start  */
+
+
+.inner-pages-slider1 {
+    padding-bottom: 80px;
+}
+
+.sub_pages_slider_sec.popular-areas .popular-areas-warp {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+.sub_pages_slider_sec .popular-card-content h4 {
+    font-weight: 600;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 25px;
+    font-family: 'Raleway';
+    color: var(--black);
+}
+
+
+.swiper_bg1{
+    background-color: #f5f5f7;
+}
+.swiper_bg2{
+    background-color:#1cc3b2;
+}
+
+
+.popular-area-card.swiper_bg2 .popular-area-card-img ,.popular-area-card.swiper_bg1 .popular-area-card-img {
+    border: none;
+}
+
+
+.popular-area-card.swiper_bg2  .popular-card-content h4 ,.popular-area-card.swiper_bg2  .popular-card-content p {
+    color: #fff;
+}
+.popular-card-content p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.sub_pages_slider_sec2 .popular-area-card {
+    min-height: 450px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgba(0 0 0/60%);
+    background-blend-mode: multiply;
+    padding: 2.5rem;
+}
+
+
+.sub_pages_slider_sec2 .popular-card-content h4 {
+    color: #fff;
+}
+
+.sub_pages_slider_sec2 .popular-card-content p {
+    color: #fff;
+}
+
+.sub_pages_slider_sec2 .popular-card-content p {
+    margin-top: 25px;
+    font-size: 1.1rem;
+}
+
+/* flight end  */
+
+
+/* about us page start  */
+
+.sectondary-banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sectondary-banner-text h1{
+    color: #fff;
+}
+
+.secondary-banner {
+    height: 450px;
+    position: relative;
+}
+.our-value-inner {
+    background: #1cc3b240;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.value-card {
+    padding: 20px;
+    border-radius: 25px;
+    height: 100%;
+}
+.value-card.value-center-card {
+    background: #fff;
+}
+.icon-wrapper {
+    width: 50px;
+    height: 50px;
+    background: #1cc3b24f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 0 20px;
+}
+.value-card h4 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+.value-card ul li {
+    margin: 0 0 10px;
+}
+.value-card ul li, .value-card p {
+    font-size: 18px;
+}
+/* about us page end  */

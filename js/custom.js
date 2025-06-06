@@ -53,6 +53,16 @@ var swiper = new Swiper(".popular-areas-slider", {
 
 
 
-
-
-
+var swiper = new Swiper(".inner-pages-slider1", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
