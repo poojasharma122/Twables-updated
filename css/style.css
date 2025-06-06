@@ -1826,9 +1826,59 @@ section.faq.new-faqs .container {
 .commoncontent-wrapper p {
      margin-bottom: 7px;
     font-family: 'Raleway';
+    font-weight: 400;
 }
 .commoncontent-wrapper p strong {
     font-weight: 600;
 }
 
+.blogbanner-text h5 {
+    font-weight: 600;
+}
+.text-wrp-main {
+    padding: 20px 0;
+}
 /* common pages end  */
+
+/* privacy policy css start */
+
+.after-banner-inner {
+    padding: 50px 0px 50px 0;
+}
+
+.privacy-policy-content h2 {
+    padding-bottom: 10px;
+}
+
+.privacy-policy-content h5 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.privacy-policy-content ul li {
+    list-style: none;
+    position: relative;
+}
+
+.privacy-policy-content ul {
+    padding-left: 20px;
+}
+
+.privacy-policy-content ul li::before {
+    position: absolute;
+    content: '.';
+    font-size: 60px;
+    color: #000;
+    top: -51px;
+    left: -24px;
+    border-radius: 50%;
+}
+
+/* privacy policy css end */
+
+
+.home_build_sec .row {
+    row-gap: 30px;
+}
