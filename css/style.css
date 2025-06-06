@@ -1699,6 +1699,7 @@ section.faq.new-faqs .container {
     right: 50%;
     width: 100%;
     max-width: 1200px;
+    padding: 0 20px;
 }
 
     .nwblog h2.section-title {

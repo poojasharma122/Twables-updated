@@ -318,7 +318,14 @@
 	.accrodtion-card .accordion .accordion-body {
 		font-size: 18px;
 	}
-	
+	.Why-banner .common-text h2 {
+		font-size: 32px;
+		margin-bottom: 20px;
+	}
+	.Why-banner .common-text p {
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
 }
 
 @media screen and (max-width:575px) {
@@ -374,6 +381,32 @@
 	.Why-banner .common-text h2 {
 		font-size: 32px;
 		margin-bottom: 20px;
+	}
+
+	h3.banner-subheading {
+		font-weight: 700;
+		font-size: 17px;
+	}
+	
+	.inner-banner p {
+		font-size: 17px;
+	}
+	.sub_pages_slider_sec .popular-card-content h4 {
+		font-size: 20px;
+	}
+	
+	.popular-card-content p {
+		font-size: 16px;
+	}
+	.text_part h3 {
+		font-size: 1.5rem;
+	}
+	.text_part {
+		padding: 4rem 1.875rem 0;
+	}
+
+	.py-80 {
+		padding: 4rem 0;
 	}
 	
 }
