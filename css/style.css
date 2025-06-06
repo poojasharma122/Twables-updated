@@ -971,7 +971,7 @@ span.highlight {
 
 /* footer start  */
 .site-footer {
-    padding: 84px 0 44px;
+    padding: 84px 0 10px;
     background: var(--theme-clr);
     color: #fff;
 }
@@ -1028,10 +1028,10 @@ span.highlight {
 .footer-bottom {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border-top: 1px solid rgb(255 255 255 / 80%);
-    padding-top: 55px;
+    padding-top: 35px;
     margin-top: 35px;
 }
 
