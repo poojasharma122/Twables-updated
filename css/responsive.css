@@ -299,8 +299,9 @@
 
 
 @media screen and (max-width:768px) {
-	.site-logo img {
-		max-width: 120px;
+
+	.footer-logo a {
+		width: 120px;
 	}
 	.site-logo a {
 		width: 120px;
@@ -343,7 +344,11 @@
 		max-width: 100%;
 	}
 	.travel-smarter-content h2 {
-		font-size: 32px;	
+		font-size: 28px;	
+	}
+
+	.our-value-inner {
+		padding: 15px;
 	}
 	.site-logo img {
 		max-width: 90px;
