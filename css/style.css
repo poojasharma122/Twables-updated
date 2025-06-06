@@ -1357,10 +1357,14 @@ section.faq.new-faqs .container {
     color: #1cc3b2;
 }
 .new-faqs .accordion-button:not(.collapsed)::after {
-    background-image: url(../images/minusicon.svg);
+    background-image: url("../images/minusicon.svg");
 }
 .new-faqs .accordion-button::after{
-    background-image: url(../images/plusicon.svg);
+    background-image: url("../images/plusicon.svg");
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    filter: opacity(0.5);
 }   
 .faqbanner {
     background: #1cc3b2;
