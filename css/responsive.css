@@ -301,7 +301,9 @@
 		max-width: 120px;
 	}
 
-
+	.Why-banner {
+		height: 550px;
+	}
 	.accrodtion-card {
 		padding: 40px 25px;
 	}
