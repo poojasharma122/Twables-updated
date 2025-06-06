@@ -326,6 +326,10 @@
 		margin-bottom: 20px;
 		font-size: 18px;
 	}
+	.footer-bottom {
+		flex-direction: column;
+		justify-content: center;
+	}
 }
 
 @media screen and (max-width:575px) {
