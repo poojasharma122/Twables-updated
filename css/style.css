@@ -1,5 +1,6 @@
 /* font-faimly  */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /*global start*/
 * {
     box-sizing: border-box;
@@ -14,11 +15,9 @@
     --theme-clr:#1cc3b2;
     --gray:#E8E8E8;
     --light:#f5f5f7;
-    --helvetica:'Helvetica';
-    
 }
 body {
-    font-family:var(--helvetica);
+    font-family: "Inter", sans-serif;
     /* color: #fff;
     background: var(--black); */
 }
@@ -94,7 +93,7 @@ select {
 }
 
 p{
-    font-family: Helvetica;
+  font-family: "Inter", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
@@ -166,7 +165,7 @@ p{
     border: 1px solid var(--theme-clr);
     font-size: 18px;
     line-height: 20px;
-    font-family: Helvetica;
+  font-family: "Inter", sans-serif;
     font-weight: 300;
     transition: all 0.2s linear;
     border-radius: 30px;
@@ -271,7 +270,7 @@ li.site-logo.desktop-logo {
     color:var(--black);
     position: relative;
     transition: all 0.2s linear;
-    font-family: Helvetica;
+  font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: normal;
@@ -388,7 +387,7 @@ display: block;
     color: #FFF;
     position: relative;
     transition: all 0.2s linear;
-    font-family: Helvetica;
+  font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: normal;
@@ -434,7 +433,7 @@ background-image: url('../images/logo_white.png');
 }
 /*header end*/ 
 .section-title {
-    font-size: 54px;
+    font-size: 46px;
     font-weight: 400;
     line-height: 140%;
     text-align: center;
@@ -445,7 +444,7 @@ span.highlight {
     color: var(--theme-clr);
 }
 .sub-title {
-    font-family: Helvetica;
+  font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 300;
     line-height: 140%;
@@ -683,7 +682,7 @@ span.highlight {
 .why_box h3 {
     font-size: 32px;
     line-height:140%;
-    font-family: Helvetica;
+  font-family: "Inter", sans-serif;
     color: var(--black);
     font-weight: 300;
     margin: 44px 0 24px;
@@ -692,7 +691,7 @@ span.highlight {
 .why_box p {
     font-size: 24px;
     line-height: 140%;
-    font-family: Helvetica;
+  font-family: "Inter", sans-serif;
     color: var(--black);
     font-weight: 300;
     margin: 0;
@@ -1100,7 +1099,7 @@ span.highlight {
 
 
 .home_build_sec .row {
-    max-width: 900px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 .feature-card {
@@ -1327,11 +1326,21 @@ span.highlight {
 
 .inner-banner h1 {
     color: #222;
+    font-size: 60px;
 }
 
 .inner-banner p {
     color: #222;
+    font-size: 20px;
+    font-weight: 400;
+}
+h3.banner-subheading {
+    font-weight: 700;
+    font-size: 23px;
+}
 
+.inner-banner .banner-content {
+    text-align: left;
 }
 /* Sub Pages Banner CSS Start */
 /* flight page end  */
