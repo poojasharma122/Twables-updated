@@ -3,6 +3,9 @@
 	.blog-card-wrap .grid {
 		grid-template-columns: repeat(auto-fill, minmax(min(360px, 100%), 1fr));
 	}
+	.inner_why_us_wrap {
+		grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+	}
 }
 
 @media screen and (max-width:1600px) {
