@@ -339,7 +339,9 @@
 	.site-nav {
 		max-width: 100%;
 	}
-
+	.travel-smarter-content h2 {
+		font-size: 32px;	
+	}
 	.site-logo img {
 		max-width: 90px;
 	}
