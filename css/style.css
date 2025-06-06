@@ -469,6 +469,7 @@ span.highlight {
     position: absolute;
     inset: 0;
     background-image: url("../images/banner-img.jpg");
+    overflow: hidden;
 }
 
 .banner-img::before {
@@ -788,6 +789,7 @@ span.highlight {
     height: 240px;
     width: 100%;
     overflow: hidden;
+    border-radius: 40px 40px 0 0;
 }
 
 .blog-image img {
@@ -889,7 +891,7 @@ span.highlight {
     height: 100%;
     background: #1cc3b21c;
     border-radius: 30px;
-    padding: 15px;
+    padding: 20px;
     border: 1px solid #eee;
 }
 
@@ -1445,27 +1447,32 @@ section.faq.new-faqs .container {
 }
 
 
-.swiper_bg1{
+.swiper_bg1 {
     background-color: #f5f5f7;
 }
-.swiper_bg2{
-    background-color:#1cc3b2;
+
+.swiper_bg2 {
+    background-color: #1cc3b2;
 }
 
 
-.popular-area-card.swiper_bg2 .popular-area-card-img ,.popular-area-card.swiper_bg1 .popular-area-card-img {
+.popular-area-card.swiper_bg2 .popular-area-card-img,
+.popular-area-card.swiper_bg1 .popular-area-card-img {
     border: none;
 }
 
 
-.popular-area-card.swiper_bg2  .popular-card-content h4 ,.popular-area-card.swiper_bg2  .popular-card-content p {
+.popular-area-card.swiper_bg2 .popular-card-content h4,
+.popular-area-card.swiper_bg2 .popular-card-content p {
     color: #fff;
 }
+
 .popular-card-content p {
     margin-top: 15px;
     font-size: 18px;
     font-weight: 400;
 }
+
 .sub_pages_slider_sec2 .popular-area-card {
     min-height: 450px;
     display: flex;
@@ -1474,6 +1481,9 @@ section.faq.new-faqs .container {
     background-color: rgba(0 0 0/60%);
     background-blend-mode: multiply;
     padding: 2.5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -1490,6 +1500,68 @@ section.faq.new-faqs .container {
     font-size: 1.1rem;
 }
 
+.service {
+    margin-bottom: 30px;
+    padding: 50px 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 40px;
+    background-color: #fff;
+}
+.service-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    background-color: #1cc3b2;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.service-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+.service-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    background-color: #1cc3b2;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+.service-description {
+    font-size: 16px;
+    color: #555;
+}
+.service_top_rap {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.inner_why_us_wrap {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 40px;
+    max-width: 1100px;
+    margin: 45px auto 0  auto;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 140%;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 20px;
+}
 /* flight end  */
 
 
@@ -1639,10 +1711,11 @@ section.faq.new-faqs .container {
  .nwblog p.sub-title {
     font-size: 23px;
 }
-  .nwblog .blog-card {
+.nwblog .blog-card {
     transition: all 0.2s linear;
     border: 1px solid #cbc4c440;
     height: 100%;
+    border-radius: 40px;
 }
   .nwblog .blog-content {
     border-radius: inherit;
@@ -1715,3 +1788,47 @@ section.faq.new-faqs .container {
 }
 
 /* events page end  */
+
+/* common pages start  */
+
+.commoncontent-wrapper span {
+    background: #1cc3b2;
+    border-radius: 30px;
+    padding: 7px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.blogbanner-text {
+    text-align: center;
+}
+
+.commoncontent-wrapper h3 {
+    padding: 20px 0;
+    color: #1cc3b2;
+}
+
+
+.commoncontent-inner {
+    padding-bottom: 80px;
+}
+
+.commoncontent-wrapper li {
+    font-size: 18px;
+    color: #212529;
+    font-family: 'Raleway';
+}
+.commoncontent-wrapper h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.commoncontent-wrapper p {
+     margin-bottom: 7px;
+    font-family: 'Raleway';
+}
+.commoncontent-wrapper p strong {
+    font-weight: 600;
+}
+
+/* common pages end  */

@@ -1,4 +1,10 @@
 
+@media  screen and (max-width: 1920px) {
+	.blog-card-wrap .grid {
+		grid-template-columns: repeat(auto-fill, minmax(min(360px, 100%), 1fr));
+	}
+}
+
 @media screen and (max-width:1600px) {
 	.desktop-menu {
 		grid-gap: 40px;
@@ -164,6 +170,9 @@
 }
 
 @media screen and (max-width:1200px) {
+	.blog-card-wrap .grid {
+		grid-gap: 20px;
+	}
 
 	.footer-links {
 		padding-left: 30px;
