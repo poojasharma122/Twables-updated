@@ -272,7 +272,7 @@ li.site-logo.desktop-logo {
     transition: all 0.2s linear;
   font-family: "Inter", sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     line-height: normal;
     padding: 10px;
     text-transform: capitalize;
@@ -722,12 +722,12 @@ span.highlight {
     font-size: 32px;
     font-weight: 300;
     line-height: 140%;
-    padding: 24px 0;
+    padding: 20px 0;
 }
 
-.accrodtion-card .accordion  .accordion-body {
+.accrodtion-card .accordion .accordion-body {
     color:var(--black);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 140%;
 }
@@ -975,8 +975,9 @@ span.highlight {
 
 .footer-logo p {
     font-size: 1.2rem;
-    color: #ffff;
-    font-weight: 500;
+    color: #ffffffdb;
+    font-weight: 400;
+    margin: 0;
 }
 
 .footer-logo a {
@@ -1024,7 +1025,7 @@ span.highlight {
 .footer-bottom {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-top: 1px solid rgb(255 255 255 / 80%);
     padding-top: 55px;
@@ -1326,7 +1327,7 @@ span.highlight {
 
 .inner-banner h1 {
     color: #222;
-    font-size: 60px;
+    font-size: 52px;
 }
 
 .inner-banner p {
@@ -1341,6 +1342,7 @@ h3.banner-subheading {
 
 .inner-banner .banner-content {
     text-align: left;
+    align-items: start;
 }
 /* Sub Pages Banner CSS Start */
 /* flight page end  */
@@ -1392,3 +1394,24 @@ section.faq.new-faqs .container {
 }
 
 /*Faq page css*/
+/* contact us page start  */
+
+.contact-us {
+    height: 350px;
+    background: var(--theme-clr);
+    position: relative;
+}
+
+.contact-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-text h1 {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/* contact us page end  */
