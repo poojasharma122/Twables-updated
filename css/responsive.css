@@ -116,9 +116,9 @@
 	}
 
 
-	.site-nav li:hover ul.submenu{
-		display: block;
+	.site-nav li:hover ul.submenu {
 		background: transparent;
+		transition: none;
 	}	
 	.toggle .site-nav {
 		transform: translateX(0);

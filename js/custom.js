@@ -102,3 +102,14 @@ var swiper = new Swiper(".inner-pages-slider1", {
     }
   }
 });
+
+
+$(document).ready(function(){
+  if (window.matchMedia("(max-width: 1400px)").matches) {
+      $(".dropdown").click(function(e){
+          // Prevent default action if needed
+          e.preventDefault();
+          $(this).next().slideToggle();
+      });
+  }
+});
