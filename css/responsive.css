@@ -76,7 +76,7 @@
 	.site-nav li a {
 		color:#fff;
 	}
-	
+
 	.menu-toggle {
 		display: block;
 	}
@@ -236,9 +236,6 @@
 }
 
 @media screen and (max-width:991px) {
-	.site-header .container {
-		padding: 20px;
-	}
 
 	.accrodtion-card {
 		padding: 80px 25px;
@@ -292,10 +289,6 @@
 }
 
 @media screen and (max-width:575px) {
-	.container {
-		max-width: calc(100% - 45px);
-		margin-left: 0;
-	}
 
 	.site-nav {
 		max-width: 100%;

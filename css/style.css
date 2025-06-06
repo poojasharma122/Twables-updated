@@ -103,7 +103,7 @@ p{
     width: 98%;
     max-width: 1560px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 15px;
 }
 
 .grid {
@@ -1189,6 +1189,7 @@ span.highlight {
     padding: 1.25rem;
     height: 100%;
     border-radius: 40px;
+    border: 1px solid #ddd;
 }
 
 .featured_img {
@@ -1543,4 +1544,174 @@ section.faq.new-faqs .container {
 .value-card ul li, .value-card p {
     font-size: 18px;
 }
+.travel-smarter {
+    background-image: radial-gradient(rgba(27, 194, 177, 0.22) 2px, transparent 2px);
+    background-size: 32px 32px;
+    background-color: rgba(222, 222, 222, 0.22);
+}
+.travel-smarter-image {
+    height: 400px;
+}
+.travel-smarter-content span {
+    font-size: 16px;
+    color: var(--theme-clr);
+}
+.travel-smarter-content h2 {
+    margin: 10px 0;
+    font-size: 40px;
+    text-wrap: balance;
+}
+
+.who-we-are {
+    padding: 120px 0;
+    background-attachment: fixed;
+    position: relative;
+    isolation: isolate;
+}
+.who-we-are::before {
+    content: "";
+    position: absolute;
+    background: rgba(0 0 0 /20%);
+    inset: 0;
+    z-index: -1;
+}
+.who-we-are-content {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.who-we-are-content h2 {
+    color: #fff;
+    font-size: 42px;
+    margin: 0 0 20px;
+}
+.who-we-are-content p {
+    color: #fff;
+    line-height: 1.7;
+}
+
+.travel-smarter ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+.travel-smarter ul li:not(:first-child) {
+    margin-top: 10px;
+}
+.travel-smarter.what-we-do {
+    background-position: 0 0, 32px  32px;
+    background: radial-gradient(farthest-side at -33.33% 50%,#0000 52%,rgba(27, 194, 177, 0.22) 54% 57%,#0000 59%) 0 calc(128px/2),
+      radial-gradient(farthest-side at 50% 133.33%,#0000 52%,rgba(27, 194, 177, 0.22) 54% 57%,#0000 59%) calc(128px/2) 0,
+      radial-gradient(farthest-side at 133.33% 50%,#0000 52%,rgba(27, 194, 177, 0.22) 54% 57%,#0000 59%),
+      radial-gradient(farthest-side at 50% -33.33%,#0000 52%,rgba(27, 194, 177, 0.22) 54% 57%,#0000 59%),
+      rgba(222, 222, 222, 0.22);
+    background-size: calc(128px/4.667) 128px,128px calc(128px/4.667);
+}
 /* about us page end  */
+
+
+/* how its works start  */
+
+.cst-banner {
+    background: #1cc3b2;
+    height: 350px;
+    position: relative;
+}
+.cst-banner h1 {
+   color: #fff;
+}
+.common-text {
+    text-align: center;
+    position: absolute;
+    transform: translate(50%, -50%);
+    top: 50%;
+    right: 50%;
+}
+
+    .nwblog h2.section-title {
+    max-width: 100%;
+    font-size: 40px;
+    font-weight: 600;
+}
+  .nwblog .sub-title {
+    max-width: 100%;
+}
+ .nwblog p.sub-title {
+    font-size: 23px;
+}
+  .nwblog .blog-card {
+    transition: all 0.2s linear;
+    border: 1px solid #cbc4c440;
+    height: 100%;
+}
+  .nwblog .blog-content {
+    border-radius: inherit;
+    padding: 20px;
+}
+
+.nwblog .blog-content li {
+    margin: 10px 0;
+    list-style: disc;
+}
+  .nwblog .blog-content ul{
+    padding-left: 15px;
+  }
+.Why-banner {
+    height: 450px;
+    background: url("../images/whysec-banner.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Why-banner::after {
+    position: absolute;
+    content: '';
+    inset: 0;
+    background: #0000006b;
+}
+
+.Why-banner .common-text {
+    color: #fff;
+    z-index: 999;
+}
+.Why-banner .common-text h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.Why-banner .common-text p {
+    margin-bottom: 28px;
+    font-size: 21px;
+}
+.Why-banner .common-text span {
+    display: block;
+    margin:0;
+        font-size: 21px;
+}
+.nwblog .blog-content h4{
+    color: #1cc3b2;
+}
+
+/* how its works end  */
+
+/* events page start  */
+
+.commoncontent-wrapper span {
+    background: #1cc3b2;
+    border-radius: 30px;
+    padding: 7px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.blogbanner-text {
+    text-align: center;
+}
+
+.commoncontent-wrapper h3 {
+    padding: 20px 0;
+    color: #1cc3b2;
+}
+
+/* events page end  */
